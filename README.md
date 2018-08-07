@@ -9,6 +9,6 @@
 * **c64第三方库：** features
 * **sift提取特征和生成codebook的第三方库：** colordescriptors40\x86_64-linux-gcc
 
-* **c64特征提取和sift特征提取要跑代码：**-040.py
-* **lbp特征提取直接跑代码：**-classifier04.py
-* **结果分析时服务启动代码：**-server.py
+* **c64特征提取和sift特征提取要跑代码：** 040.py
+* **lbp特征提取直接跑代码：** classifier04.py
+* **结果分析时服务启动代码：** server.py
