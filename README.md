@@ -1,5 +1,10 @@
 # KNN
 #使用KNN算法对图片进行打标分类，并对结果进行分析展示。
+* **使用前需要先把sift和color64的第三方库放到KNN目录下**
+*  **sift:**
+KNN\colordescriptors40\x86_64-linux-gcc
+* **color64:**
+KNN\features
 * **原始数据，图片集：**  static\data\cifar-10-python
 * **从原始数据保存的图片集：**  static\data\img
  	由于图片太多，已经删除，需要先生成到相应目录下。
