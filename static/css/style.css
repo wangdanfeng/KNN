@@ -1,0 +1,21 @@
+*{padding: 0;margin: 0}
+li{list-style: none}
+.item{
+    width: 980px;
+    height: 65px;
+}
+img,li{display: inline-block}
+.test,.to,.trains{
+    float: left;
+}
+.trains .i-train{
+    position: relative;
+    width: 60px;
+    text-align: center;
+}
+.trains .i-train span{
+    position: absolute;
+    top: 36px;
+    left: 0;
+
+}

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+{#    暂时没用到#}
+    <!--flask 的大坑：样式表文件找不见，body内容不显示-->
+     <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+<body>
+    <h1>localhost Home</h1>
+    <h1>{{msg}}</h1>
+    {% for item in list_w %}
+        <div class="item">
+            <div class="test">
+                <img src="{{item.test.img_path}}" title="{{item.test.img_id}}"><span></span>
+            </div>
+            <span class="to">{{item.test.pred_label}}     ------> </span>
+            <ul class="trains">
+            {% for img in item.trains %}
+                <li class="i-train"><img src="{{img.path}}" title="{{img.id}}"><span>{{img.distance}}</span></li>
+            {% endfor %}
+             </ul>
+        </div>
+    {% endfor %}
+</body>
+</html>
